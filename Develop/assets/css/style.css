@@ -1,3 +1,4 @@
+/*general styling*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +9,16 @@ body {
     background-color: #d9dcd6;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* header consisting of Horiseon logo and nav links.*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -19,7 +30,7 @@ header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* styling for middle of Horiseon (logo is 2 different colors)*/
 header h1 .seo {
     color: #d9dcd6;
 }
@@ -41,11 +52,7 @@ header nav ul li {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
+/* hero image */
 .hero {
     height: 800px;
     width: 100%;
@@ -55,10 +62,7 @@ a {
     background-position: center;
 }
 
-p {
-    font-size: 16px;
-}
-
+/*Classes for the offered services sections*/
 .content {
     width: 75%;
     display: inline-block;
@@ -94,7 +98,7 @@ p {
 }
 
 
-
+/*Classes for the benefits aside*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -122,6 +126,7 @@ p {
     max-width: 150px;
 }
 
+/*footer with company name*/
 footer {
     padding: 30px;
     clear: both;
