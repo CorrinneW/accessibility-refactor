@@ -7,7 +7,7 @@ Update an existing web page to increase accessibility without altering the look 
 
 ## What I Did
 
-1. Added meaningful alt text to all images.
+1. Added meaningful alt text to images where appropriate. Used empty alt attributes for decorative/nonessential images.
 2. Ensured all links function properly
 3. Updated HTML with semantic tags that properly describe each element.
 4. Consolidated redundant CSS classes and organized CSS to follow the flow of the HTML document.
@@ -16,11 +16,9 @@ Update an existing web page to increase accessibility without altering the look 
 
 ## The Result
 
-Same outside, new and improved inside.
+Same outside; new, more accessible inside.
 
-[index.html](Develop/index.html)
+https://corrinnew.github.io/homework-01/
 
-[style.css](Develop/assets/css/style.css)
-
-<img src="Develop/assets/images/screenshot.png" width="300">
+<img src="assets/images/screenshot.png" width="300">
 
